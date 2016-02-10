@@ -1,0 +1,331 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rand",
+				"random_password"
+			],
+			[
+				"ca",
+				"candidate"
+			],
+			[
+				"coun",
+				"country_id"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"countr",
+				"countries_array"
+			],
+			[
+				"new",
+				"new_candidate"
+			],
+			[
+				"sal",
+				"salary_expectation"
+			],
+			[
+				"post",
+				"post_params"
+			],
+			[
+				"sa",
+				"salary_expectation"
+			],
+			[
+				"sala",
+				"salary_currency"
+			],
+			[
+				"ski",
+				"skill_level"
+			],
+			[
+				"Candida",
+				"candidate_to_skills"
+			],
+			[
+				"enti",
+				"entity_id"
+			],
+			[
+				"candidate",
+				"candidate_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 552.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andreasahrens/Dropbox/Learning/Ruby/sample_app"
+	],
+	"file_history":
+	[
+		"/Users/andreasahrens/Dropbox/Learning/Ruby/toy_app/Gemfile",
+		"/Users/andreasahrens/Dropbox/Learning/Ruby/toy_app/app/controllers/application_controller.rb",
+		"/Users/andreasahrens/Dropbox/Learning/Ruby/toy_app/app/models/user.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/Gemfile",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/views/candidates/new.html.erb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/views/candidates/index.html.erb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/config/routes.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/views/candidates/show.html.erb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/candidate.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/views/candidates/edit.html.erb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/controllers/candidates_controller.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/mailers/application_mailer.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/views/candidate_mailer/create_and_deliver_password_change.html.erb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/mailers/candidate_mailer.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/config/environments/development.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/config/environments/$RAILS_ENV.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/views/candidates/forgot_password.html.erb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/views/candidate_mailer/forgot_password.html.erb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/controllers/jobs_controller.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/controllers/entities_controller.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/seeds.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160210104333_change_active.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160210101615_create_currencies.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160210102006_currency_i_dto_candidate.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160210102221_remove_currency_from_candidate.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/currency.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160210083320_add_reference_country_to_candidate.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160210082635_create_countries.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207173807_create_candidates.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/country.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/user.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207175022_create_users.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/entity.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/permission.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/skill.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/config/database.yml",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/controllers/application_controller.rb",
+		"/Users/andreasahrens/Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-settings",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/README.md",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/.gitignore",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207180107_create_candidate_to_skills.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207174956_create_offers.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/offer.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207180300_create_permissions.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207174933_create_documents.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207175004_create_jobs.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/schema.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207175013_create_entities.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/job.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/candidate_to_skill.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/app/models/document.rb",
+		"/Users/andreasahrens/Dropbox/devv/UnicornCoders/UnicornCoders/db/migrate/20160207174949_create_skills.rb",
+		"/Users/andreasahrens/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/andreasahrens/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/andreasahrens/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/var/folders/s7/1p5_ddsd0h7ctgzw0tdznqsr0000gn/T/sublime-sftp-browse-1454439558/andreasahrens.se/etc/network/interfaces"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"text_area"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "sample_app.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
