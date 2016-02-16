@@ -1,0 +1,16 @@
+AllCops:
+  Excludes:
+    - db/schema.rb
+    - test/test_helper.rb
+
+Style/Encoding:
+  Enabled: false
+
+Style/ColonMethodCall:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 150
