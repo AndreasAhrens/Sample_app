@@ -1,0 +1,17 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    # Used by container_spec
+    - docker pull alpine
+    - make image
+
+test:
+  override:
+    - make citest
+
+notify:
+  webhooks:
+    - url: https://cc-slack-proxy.herokuapp.com/circle
